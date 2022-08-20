@@ -1,0 +1,51 @@
+[
+  {
+    "customer": {
+      "_id": "1",
+      "firstName": "Danial",
+      "lastName": "Purselley",
+      "dateOfBirth": "01081999",
+      "username": "gabe19p",
+      "invoice": [
+        {
+          "_id": "25",
+          "createDate": "08202022",
+          "shipDate": "08212022",
+          "subtotal": "19.99",
+          "lineItem": [
+            {
+              "_id": "85",
+              "productName": "Training Book",
+              "price": "19.99",
+              "qty": "1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "student": {
+      "studentId": "1",
+      "firstName": "Danial",
+      "lastName": "Purselley",
+      "enrollment": [
+        {
+          "term": "summer_22",
+          "gpa": "4.0",
+          "startDate": "08072022",
+          "endDate": "10082022",
+          "course": [
+            {
+              "courseId": "312J-web335",
+              "description": "Intro to NoSQL",
+              "instructor": "Professor Krasso",
+              "score": "100",
+              "letterGrade": "A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
