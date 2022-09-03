@@ -47,5 +47,52 @@
         }
       ]
     }
+  },
+  {
+    "user": "Danial",
+    "roles": [
+      {
+        "role-1": "supervisor",
+        "permissions": [
+          {
+            "permission-1": "administrator",
+            "permission-2": "signature"
+          }
+        ]
+      },
+      {
+        "role-2": "analyst",
+        "permissions": [
+          {
+            "permission-1": "toolkit",
+            "permission-2": "design"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publishers": [
+      {
+        "publisher_name": "Good Publishing",
+        "publisher_code": "123",
+        "publisher_address": "567 ABC St",
+        "books": [
+          {
+            "book_isbn": "1234567890",
+            "book_name": "Good Book",
+            "book_price": "9.99",
+            "authors": [
+              {
+                "author_first_name": "Jane",
+                "author_last_name": "Doe",
+                "author_phone": "123-456-7890",
+                "author_email": "email@email.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
