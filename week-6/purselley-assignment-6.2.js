@@ -12,7 +12,7 @@ db.houses.find({});
 db.students.find({});
 
 // add a student to the collection
-db.students.insert({
+db.students.insertOne({
   firstName: "Danial",
   lastName: "Purselley",
   studentId: "s1019",
