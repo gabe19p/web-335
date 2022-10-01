@@ -94,5 +94,36 @@
         ]
       }
     ]
+  },
+  {
+    "customers": [
+      {
+        "firstName": "Danial",
+        "lastName": "Purselley",
+        "customerId": "001",
+        "wishlistItems": [
+          {
+            "books": [
+              {
+                "title": "Harry Potter and the Sorcerer's Stone",
+                "genre": "Fantasy",
+                "author": "J. K. Rowling",
+                "bookId": "001"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "books": [
+      {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": "Fantasy",
+        "author": "J. K. Rowling",
+        "bookId": "001"
+      }
+    ]
   }
 ]
